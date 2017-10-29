@@ -11,24 +11,7 @@ import DeckScreen from './src/screens/DeckScreen';
 import ReviewScreen from './src/screens/ReviewScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 
-//import registerForNotifications from './src/services/push_notifications';
-
 export default class jobs extends Component {
-//  componentDidMount() {
-//     registerForNotifications();
-//     Notifications.addListener((notification) => {
-//       const { data: { text }, origin } = notification;
-      
-//       if (origin === 'received' && text) {
-//         Alert.alert(
-//           'New Push Notification',
-//           text,
-//           [{ text: 'OK' }]
-//         );
-//       }
-
-//     });
-//   }
 
   render() {
       const MainNavigator = TabNavigator({
